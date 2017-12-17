@@ -1,0 +1,20 @@
+title:             YinChangdao
+email:             wzycool1218@sina.com
+description:       心有猛虎，细嗅蔷薇
+author:            YinChangdao
+baseurl:           ""
+url:               "http://YinChangDao.github.io"
+
+# Social Profiles
+#twitter_username:  SBootstrap
+github_username:   YinChangDao
+#facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
