@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "《Pro Git》读书笔记"
+title:  "Singleton"
 subtitle: ""
 date:   2017-12-19 00:15:13 -0400
 background: '/img/posts/01.jpg'
