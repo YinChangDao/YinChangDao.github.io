@@ -35,7 +35,7 @@ background: '/img/posts/01.jpg'
 
 ```
 ### 内存管理
-``` objective-c
+~~~
 - (id)retain {
 	return self;
 }
@@ -51,11 +51,11 @@ background: '/img/posts/01.jpg'
 - (id)autorelease {
 	return self;
 }
-```
+~~~
 ### 子类化一个单例类
 `alloc`调用被转发给`super`, 意味着如果不做修改地子类化单例，返回的实例将总是`Singleton`。使用一些`Foundation`中的函数，可以根据类的类型实例化任何对象。  
 
-```objective-c
+~~~objective-c
 // 在父类的创建方法中可以改为使用 NSAllocateObject
 + (instancetype)sharedMediaData {
     static dispatch_once_t onceToken;
@@ -64,4 +64,4 @@ background: '/img/posts/01.jpg'
     });
     return _instance;
 }
-```
+~~~
