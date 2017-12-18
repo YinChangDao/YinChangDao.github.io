@@ -35,7 +35,7 @@ background: '/img/posts/01.jpg'
 
 ```
 ### 内存管理
-~~~
+~~~objective-c
 - (id)retain {
 	return self;
 }
